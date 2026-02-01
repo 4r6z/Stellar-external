@@ -1,0 +1,2020 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(1119,5): warning MSB8027: Two or more files with the name of main.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are src\main.cpp, src\protection\protect_x\main.cpp.
+  detours.cpp
+  main.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\anti_vm.h(16,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\antiDbg.h(149,11): warning C4305: 'return': truncation from 'int' to 'bool'
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\protection\a_debug.h(209,16): warning C4312: 'type cast': conversion from 'unsigned int' to 'HANDLE' of greater size
+  (compiling source file 'src/main.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\main.cpp(246,17): warning C4101: 'option': unreferenced local variable
+  sha256.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\encryption\sha256.cpp(124,60): warning C4267: 'argument': conversion from 'size_t' to 'unsigned int', possible loss of data
+  anti_attach.cpp
+  anti_debugger.cpp
+  anti_dump.cpp
+  integrity_check.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect\integrity_check.cpp(56,2): warning C4091: 'typedef ': ignored on left of '_integrity_check' when no variable is declared
+  kill_process.cpp
+  node_protect.cpp
+  protectmain.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(66,1): warning C4005: 'STATUS_WAIT_0': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2549,1):
+  see previous definition of 'STATUS_WAIT_0'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(223,1): warning C4005: 'STATUS_ABANDONED_WAIT_0': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2550,1):
+  see previous definition of 'STATUS_ABANDONED_WAIT_0'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(246,1): warning C4005: 'STATUS_USER_APC': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2551,1):
+  see previous definition of 'STATUS_USER_APC'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(282,1): warning C4005: 'STATUS_TIMEOUT': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2552,1):
+  see previous definition of 'STATUS_TIMEOUT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(291,1): warning C4005: 'STATUS_PENDING': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2553,1):
+  see previous definition of 'STATUS_PENDING'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(747,1): warning C4005: 'DBG_EXCEPTION_HANDLED': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2554,1):
+  see previous definition of 'DBG_EXCEPTION_HANDLED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(756,1): warning C4005: 'DBG_CONTINUE': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2555,1):
+  see previous definition of 'DBG_CONTINUE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(831,1): warning C4005: 'STATUS_SEGMENT_NOTIFICATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2556,1):
+  see previous definition of 'STATUS_SEGMENT_NOTIFICATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(994,1): warning C4005: 'STATUS_FATAL_APP_EXIT': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2557,1):
+  see previous definition of 'STATUS_FATAL_APP_EXIT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1332,1): warning C4005: 'DBG_REPLY_LATER': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2558,1):
+  see previous definition of 'DBG_REPLY_LATER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1350,1): warning C4005: 'DBG_TERMINATE_THREAD': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2559,1):
+  see previous definition of 'DBG_TERMINATE_THREAD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1359,1): warning C4005: 'DBG_TERMINATE_PROCESS': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2560,1):
+  see previous definition of 'DBG_TERMINATE_PROCESS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1368,1): warning C4005: 'DBG_CONTROL_C': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2561,1):
+  see previous definition of 'DBG_CONTROL_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1377,1): warning C4005: 'DBG_PRINTEXCEPTION_C': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2562,1):
+  see previous definition of 'DBG_PRINTEXCEPTION_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1386,1): warning C4005: 'DBG_RIPEXCEPTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2563,1):
+  see previous definition of 'DBG_RIPEXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1395,1): warning C4005: 'DBG_CONTROL_BREAK': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2564,1):
+  see previous definition of 'DBG_CONTROL_BREAK'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1404,1): warning C4005: 'DBG_COMMAND_EXCEPTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2565,1):
+  see previous definition of 'DBG_COMMAND_EXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1413,1): warning C4005: 'DBG_PRINTEXCEPTION_WIDE_C': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2566,1):
+  see previous definition of 'DBG_PRINTEXCEPTION_WIDE_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1445,1): warning C4005: 'STATUS_GUARD_PAGE_VIOLATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2567,1):
+  see previous definition of 'STATUS_GUARD_PAGE_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1456,1): warning C4005: 'STATUS_DATATYPE_MISALIGNMENT': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2568,1):
+  see previous definition of 'STATUS_DATATYPE_MISALIGNMENT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1467,1): warning C4005: 'STATUS_BREAKPOINT': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2569,1):
+  see previous definition of 'STATUS_BREAKPOINT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1478,1): warning C4005: 'STATUS_SINGLE_STEP': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2570,1):
+  see previous definition of 'STATUS_SINGLE_STEP'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1781,1): warning C4005: 'STATUS_LONGJUMP': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2571,1):
+  see previous definition of 'STATUS_LONGJUMP'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1808,1): warning C4005: 'STATUS_UNWIND_CONSOLIDATE': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2572,1):
+  see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1923,1): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2573,1):
+  see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2090,1): warning C4005: 'STATUS_ACCESS_VIOLATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2574,1):
+  see previous definition of 'STATUS_ACCESS_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2099,1): warning C4005: 'STATUS_IN_PAGE_ERROR': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2575,1):
+  see previous definition of 'STATUS_IN_PAGE_ERROR'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2117,1): warning C4005: 'STATUS_INVALID_HANDLE': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2576,1):
+  see previous definition of 'STATUS_INVALID_HANDLE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2162,1): warning C4005: 'STATUS_INVALID_PARAMETER': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2577,1):
+  see previous definition of 'STATUS_INVALID_PARAMETER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2262,1): warning C4005: 'STATUS_NO_MEMORY': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2578,1):
+  see previous definition of 'STATUS_NO_MEMORY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2319,1): warning C4005: 'STATUS_ILLEGAL_INSTRUCTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2579,1):
+  see previous definition of 'STATUS_ILLEGAL_INSTRUCTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2400,1): warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2580,1):
+  see previous definition of 'STATUS_NONCONTINUABLE_EXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2409,1): warning C4005: 'STATUS_INVALID_DISPOSITION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2581,1):
+  see previous definition of 'STATUS_INVALID_DISPOSITION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3342,1): warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2582,1):
+  see previous definition of 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3352,1): warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2583,1):
+  see previous definition of 'STATUS_FLOAT_DENORMAL_OPERAND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3362,1): warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2584,1):
+  see previous definition of 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3372,1): warning C4005: 'STATUS_FLOAT_INEXACT_RESULT': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2585,1):
+  see previous definition of 'STATUS_FLOAT_INEXACT_RESULT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3382,1): warning C4005: 'STATUS_FLOAT_INVALID_OPERATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2586,1):
+  see previous definition of 'STATUS_FLOAT_INVALID_OPERATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3392,1): warning C4005: 'STATUS_FLOAT_OVERFLOW': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2587,1):
+  see previous definition of 'STATUS_FLOAT_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3402,1): warning C4005: 'STATUS_FLOAT_STACK_CHECK': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2588,1):
+  see previous definition of 'STATUS_FLOAT_STACK_CHECK'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3412,1): warning C4005: 'STATUS_FLOAT_UNDERFLOW': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2589,1):
+  see previous definition of 'STATUS_FLOAT_UNDERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3422,1): warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2590,1):
+  see previous definition of 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3432,1): warning C4005: 'STATUS_INTEGER_OVERFLOW': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2591,1):
+  see previous definition of 'STATUS_INTEGER_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3442,1): warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2592,1):
+  see previous definition of 'STATUS_PRIVILEGED_INSTRUCTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4388,1): warning C4005: 'STATUS_STACK_OVERFLOW': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2593,1):
+  see previous definition of 'STATUS_STACK_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4905,1): warning C4005: 'STATUS_DLL_NOT_FOUND': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2594,1):
+  see previous definition of 'STATUS_DLL_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4934,1): warning C4005: 'STATUS_ORDINAL_NOT_FOUND': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2595,1):
+  see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4944,1): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2596,1):
+  see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4954,1): warning C4005: 'STATUS_CONTROL_C_EXIT': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2597,1):
+  see previous definition of 'STATUS_CONTROL_C_EXIT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(5032,1): warning C4005: 'STATUS_DLL_INIT_FAILED': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2598,1):
+  see previous definition of 'STATUS_DLL_INIT_FAILED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(6029,1): warning C4005: 'STATUS_CONTROL_STACK_VIOLATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2599,1):
+  see previous definition of 'STATUS_CONTROL_STACK_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7623,1): warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2600,1):
+  see previous definition of 'STATUS_FLOAT_MULTIPLE_FAULTS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7633,1): warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2601,1):
+  see previous definition of 'STATUS_FLOAT_MULTIPLE_TRAPS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7765,1): warning C4005: 'STATUS_REG_NAT_CONSUMPTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2602,1):
+  see previous definition of 'STATUS_REG_NAT_CONSUMPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(8748,1): warning C4005: 'STATUS_HEAP_CORRUPTION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2603,1):
+  see previous definition of 'STATUS_HEAP_CORRUPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(8976,1): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2604,1):
+  see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(9103,1): warning C4005: 'STATUS_INVALID_CRUNTIME_PARAMETER': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2605,1):
+  see previous definition of 'STATUS_INVALID_CRUNTIME_PARAMETER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(9166,1): warning C4005: 'STATUS_ASSERTION_FAILURE': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2606,1):
+  see previous definition of 'STATUS_ASSERTION_FAILURE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10075,1): warning C4005: 'STATUS_ENCLAVE_VIOLATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2607,1):
+  see previous definition of 'STATUS_ENCLAVE_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10808,1): warning C4005: 'STATUS_INTERRUPTED': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2608,1):
+  see previous definition of 'STATUS_INTERRUPTED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10817,1): warning C4005: 'STATUS_THREAD_NOT_RUNNING': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2609,1):
+  see previous definition of 'STATUS_THREAD_NOT_RUNNING'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(11129,1): warning C4005: 'STATUS_ALREADY_REGISTERED': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2610,1):
+  see previous definition of 'STATUS_ALREADY_REGISTERED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(15048,1): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2612,1):
+  see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(15057,1): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION': macro redefinition
+  (compiling source file 'src/protection/protect/protectmain.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2613,1):
+  see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+  
+  filler.cpp
+  ntapi.cpp
+  pe_header.cpp
+  remap.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect\selfcode\remap.cpp(72,80): warning C4390: ';': empty controlled statement found; is this the intent?
+  selfcode.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect\selfcode\selfcode.cpp(58,95): warning C4390: ';': empty controlled statement found; is this the intent?
+  blowfish.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\blowfish\blowfish.cpp(16,32): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\blowfish\blowfish.cpp(60,53): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\blowfish\blowfish.cpp(81,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  main.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\anti_vm.h(16,26): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/protection/protect_x/main.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\antiDbg.h(149,11): warning C4305: 'return': truncation from 'int' to 'bool'
+  (compiling source file 'src/protection/protect_x/main.cpp')
+  
+  aimbot.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(25,2): warning C4091: 'static ': ignored on left of 'wts_ret' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(65,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(68,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/aimbot/aimbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\features\aimbot\aimbot.cpp(189,39): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\features\aimbot\aimbot.cpp(190,39): warning C4244: '=': conversion from 'float' to 'LONG', possible loss of data
+  anti_lock.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(25,2): warning C4091: 'static ': ignored on left of 'wts_ret' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(65,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(68,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/anti_lock/anti_lock.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\features\anti_lock\anti_lock.cpp(29,56): warning C4305: 'argument': truncation from 'double' to 'const float'
+  esp.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\int_value.hpp(11,19): warning C4244: 'return': conversion from 'T' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\int_value.hpp(11,19): warning C4244:         with
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\int_value.hpp(11,19): warning C4244:         [
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\int_value.hpp(11,19): warning C4244:             T=int
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\int_value.hpp(11,19): warning C4244:         ]
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(25,2): warning C4091: 'static ': ignored on left of 'wts_ret' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(65,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(68,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/esp/esp.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\features\esp\esp.cpp(20,68): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\features\esp\esp.cpp(20,54): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\features\esp\esp.cpp(20,38): warning C4244: 'argument': conversion from 'LONG' to 'float', possible loss of data
+  Generating Code...
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\player.hpp(63,1): warning C4715: 'Bones::operator[]': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\anti_vm.h(76,1): warning C4715: 'virtual_box_drivers': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\antiDbg.h(215,1): warning C4715: 'close_handle': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect\selfcode\selfcode.cpp(114,1): warning C4715: 'selfcode': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\anti_vm.h(76,1): warning C4715: 'virtual_box_drivers': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\protect_x\antiDbg.h(215,1): warning C4715: 'close_handle': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\a_debug.h(217,1): warning C4715: 'a_debug::CloseHandleAPI': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\protection\a_debug.h(162,1): warning C4715: 'a_debug::NtQueryInformationProcess_SystemKernelDebuggerInformation': not all control paths return a value
+  Compiling...
+  triggerbot.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(25,2): warning C4091: 'static ': ignored on left of 'wts_ret' when no variable is declared
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(65,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(68,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/features/triggerbot/triggerbot.cpp')
+  
+  globals.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/globals/globals.cpp')
+  
+  imgui_combo.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\custommenu\imgui_combo.cpp(96,126): warning C4305: 'argument': truncation from 'double' to 'float'
+  imgui.cpp
+  imgui_demo.cpp
+  imgui_draw.cpp
+  imgui_freetype.cpp
+  imgui_impl_dx11.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58160,1):
+  see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58169,1):
+  see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58178,1):
+  see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58187,1):
+  see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58196,1):
+  see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58205,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58214,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58229,1):
+  see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58238,1):
+  see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58247,1):
+  see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58256,1):
+  see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58265,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58274,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58284,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58293,1):
+  see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58303,1):
+  see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58312,1):
+  see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58322,1):
+  see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58331,1):
+  see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58340,1):
+  see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58350,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58359,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58665,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58674,1):
+  see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58684,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58693,1):
+  see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58641,1):
+  see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_impl_dx11.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58650,1):
+  see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+  imgui_impl_win32.cpp
+  imgui_tables.cpp
+  imgui_toggle.cpp
+  imgui_toggle_palette.cpp
+  imgui_toggle_presets.cpp
+  imgui_toggle_renderer.cpp
+  imgui_widgets.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58160,1):
+  see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58169,1):
+  see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58178,1):
+  see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58187,1):
+  see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58196,1):
+  see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58205,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58214,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58229,1):
+  see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58238,1):
+  see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58247,1):
+  see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58256,1):
+  see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58265,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58274,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58284,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58293,1):
+  see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58303,1):
+  see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58312,1):
+  see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58322,1):
+  see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58331,1):
+  see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58340,1):
+  see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58350,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58359,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58665,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58674,1):
+  see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58684,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58693,1):
+  see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58641,1):
+  see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/imgui/imgui_widgets.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58650,1):
+  see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\imgui\imgui_widgets.cpp(5693,45): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\imgui\imgui_widgets.cpp(5700,44): warning C4390: ';': empty controlled statement found; is this the intent?
+  TextEditor.cpp
+  overlay.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58160,1):
+  see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58169,1):
+  see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58178,1):
+  see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58187,1):
+  see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58196,1):
+  see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58205,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58214,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58229,1):
+  see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58238,1):
+  see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58247,1):
+  see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58256,1):
+  see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58265,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58274,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58284,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58293,1):
+  see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58303,1):
+  see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58312,1):
+  see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58322,1):
+  see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58331,1):
+  see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58340,1):
+  see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58350,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58359,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58665,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58674,1):
+  see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58684,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58693,1):
+  see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58641,1):
+  see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58650,1):
+  see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/overlay/overlay.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(529,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(529,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(530,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(530,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(533,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(533,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(538,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(538,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(539,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(539,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(542,86): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(542,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(545,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(545,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(546,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(546,79): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(549,86): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(549,75): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(553,82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(553,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(554,82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(554,71): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(557,83): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(557,72): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(656,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(656,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(657,105): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(657,94): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(660,101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(660,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(661,101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(661,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(663,101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(663,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(664,101): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(664,90): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(667,93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(667,82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(668,93): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(668,82): warning C4244: 'argument': conversion from 'double' to 'float', possible loss of data
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(735,119): warning C4244: 'argument': conversion from 'float' to 'int', possible loss of data
+  threads.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/cheat/threads/threads.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\threads\threads.cpp(71,17): warning C4018: '>=': signed/unsigned mismatch
+  C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\threads\threads.cpp(71,17):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\threads\threads.cpp(116,13):
+  	see reference to function template instantiation 'void sync_lists<Player>(std::vector<Player,std::allocator<Player>> &,std::vector<Player,std::allocator<Player>> &)' being compiled
+  
+  driver.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/driver/driver.cpp')
+  
+  drv_image.cpp
+  Generating Code...
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\player.hpp(63,1): warning C4715: 'Bones::operator[]': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(207,1): warning C4715: 'stellar::overlay::fullsc': not all control paths return a value
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\cheat\overlay\overlay.cpp(794,1): warning C4715: 'stellar::overlay::render': not all control paths return a value
+  Compiling...
+  kernel_ctx.cpp
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(66,1): warning C4005: 'STATUS_WAIT_0': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2549,1):
+  see previous definition of 'STATUS_WAIT_0'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(223,1): warning C4005: 'STATUS_ABANDONED_WAIT_0': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2550,1):
+  see previous definition of 'STATUS_ABANDONED_WAIT_0'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(246,1): warning C4005: 'STATUS_USER_APC': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2551,1):
+  see previous definition of 'STATUS_USER_APC'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(282,1): warning C4005: 'STATUS_TIMEOUT': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2552,1):
+  see previous definition of 'STATUS_TIMEOUT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(291,1): warning C4005: 'STATUS_PENDING': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2553,1):
+  see previous definition of 'STATUS_PENDING'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(747,1): warning C4005: 'DBG_EXCEPTION_HANDLED': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2554,1):
+  see previous definition of 'DBG_EXCEPTION_HANDLED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(756,1): warning C4005: 'DBG_CONTINUE': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2555,1):
+  see previous definition of 'DBG_CONTINUE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(831,1): warning C4005: 'STATUS_SEGMENT_NOTIFICATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2556,1):
+  see previous definition of 'STATUS_SEGMENT_NOTIFICATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(994,1): warning C4005: 'STATUS_FATAL_APP_EXIT': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2557,1):
+  see previous definition of 'STATUS_FATAL_APP_EXIT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1332,1): warning C4005: 'DBG_REPLY_LATER': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2558,1):
+  see previous definition of 'DBG_REPLY_LATER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1350,1): warning C4005: 'DBG_TERMINATE_THREAD': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2559,1):
+  see previous definition of 'DBG_TERMINATE_THREAD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1359,1): warning C4005: 'DBG_TERMINATE_PROCESS': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2560,1):
+  see previous definition of 'DBG_TERMINATE_PROCESS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1368,1): warning C4005: 'DBG_CONTROL_C': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2561,1):
+  see previous definition of 'DBG_CONTROL_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1377,1): warning C4005: 'DBG_PRINTEXCEPTION_C': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2562,1):
+  see previous definition of 'DBG_PRINTEXCEPTION_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1386,1): warning C4005: 'DBG_RIPEXCEPTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2563,1):
+  see previous definition of 'DBG_RIPEXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1395,1): warning C4005: 'DBG_CONTROL_BREAK': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2564,1):
+  see previous definition of 'DBG_CONTROL_BREAK'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1404,1): warning C4005: 'DBG_COMMAND_EXCEPTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2565,1):
+  see previous definition of 'DBG_COMMAND_EXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1413,1): warning C4005: 'DBG_PRINTEXCEPTION_WIDE_C': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2566,1):
+  see previous definition of 'DBG_PRINTEXCEPTION_WIDE_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1445,1): warning C4005: 'STATUS_GUARD_PAGE_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2567,1):
+  see previous definition of 'STATUS_GUARD_PAGE_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1456,1): warning C4005: 'STATUS_DATATYPE_MISALIGNMENT': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2568,1):
+  see previous definition of 'STATUS_DATATYPE_MISALIGNMENT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1467,1): warning C4005: 'STATUS_BREAKPOINT': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2569,1):
+  see previous definition of 'STATUS_BREAKPOINT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1478,1): warning C4005: 'STATUS_SINGLE_STEP': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2570,1):
+  see previous definition of 'STATUS_SINGLE_STEP'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1781,1): warning C4005: 'STATUS_LONGJUMP': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2571,1):
+  see previous definition of 'STATUS_LONGJUMP'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1808,1): warning C4005: 'STATUS_UNWIND_CONSOLIDATE': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2572,1):
+  see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1923,1): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2573,1):
+  see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2090,1): warning C4005: 'STATUS_ACCESS_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2574,1):
+  see previous definition of 'STATUS_ACCESS_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2099,1): warning C4005: 'STATUS_IN_PAGE_ERROR': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2575,1):
+  see previous definition of 'STATUS_IN_PAGE_ERROR'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2117,1): warning C4005: 'STATUS_INVALID_HANDLE': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2576,1):
+  see previous definition of 'STATUS_INVALID_HANDLE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2162,1): warning C4005: 'STATUS_INVALID_PARAMETER': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2577,1):
+  see previous definition of 'STATUS_INVALID_PARAMETER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2262,1): warning C4005: 'STATUS_NO_MEMORY': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2578,1):
+  see previous definition of 'STATUS_NO_MEMORY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2319,1): warning C4005: 'STATUS_ILLEGAL_INSTRUCTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2579,1):
+  see previous definition of 'STATUS_ILLEGAL_INSTRUCTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2400,1): warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2580,1):
+  see previous definition of 'STATUS_NONCONTINUABLE_EXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2409,1): warning C4005: 'STATUS_INVALID_DISPOSITION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2581,1):
+  see previous definition of 'STATUS_INVALID_DISPOSITION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3342,1): warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2582,1):
+  see previous definition of 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3352,1): warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2583,1):
+  see previous definition of 'STATUS_FLOAT_DENORMAL_OPERAND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3362,1): warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2584,1):
+  see previous definition of 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3372,1): warning C4005: 'STATUS_FLOAT_INEXACT_RESULT': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2585,1):
+  see previous definition of 'STATUS_FLOAT_INEXACT_RESULT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3382,1): warning C4005: 'STATUS_FLOAT_INVALID_OPERATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2586,1):
+  see previous definition of 'STATUS_FLOAT_INVALID_OPERATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3392,1): warning C4005: 'STATUS_FLOAT_OVERFLOW': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2587,1):
+  see previous definition of 'STATUS_FLOAT_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3402,1): warning C4005: 'STATUS_FLOAT_STACK_CHECK': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2588,1):
+  see previous definition of 'STATUS_FLOAT_STACK_CHECK'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3412,1): warning C4005: 'STATUS_FLOAT_UNDERFLOW': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2589,1):
+  see previous definition of 'STATUS_FLOAT_UNDERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3422,1): warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2590,1):
+  see previous definition of 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3432,1): warning C4005: 'STATUS_INTEGER_OVERFLOW': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2591,1):
+  see previous definition of 'STATUS_INTEGER_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3442,1): warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2592,1):
+  see previous definition of 'STATUS_PRIVILEGED_INSTRUCTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4388,1): warning C4005: 'STATUS_STACK_OVERFLOW': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2593,1):
+  see previous definition of 'STATUS_STACK_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4905,1): warning C4005: 'STATUS_DLL_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2594,1):
+  see previous definition of 'STATUS_DLL_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4934,1): warning C4005: 'STATUS_ORDINAL_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2595,1):
+  see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4944,1): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2596,1):
+  see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4954,1): warning C4005: 'STATUS_CONTROL_C_EXIT': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2597,1):
+  see previous definition of 'STATUS_CONTROL_C_EXIT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(5032,1): warning C4005: 'STATUS_DLL_INIT_FAILED': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2598,1):
+  see previous definition of 'STATUS_DLL_INIT_FAILED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(6029,1): warning C4005: 'STATUS_CONTROL_STACK_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2599,1):
+  see previous definition of 'STATUS_CONTROL_STACK_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7623,1): warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2600,1):
+  see previous definition of 'STATUS_FLOAT_MULTIPLE_FAULTS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7633,1): warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2601,1):
+  see previous definition of 'STATUS_FLOAT_MULTIPLE_TRAPS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7765,1): warning C4005: 'STATUS_REG_NAT_CONSUMPTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2602,1):
+  see previous definition of 'STATUS_REG_NAT_CONSUMPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(8748,1): warning C4005: 'STATUS_HEAP_CORRUPTION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2603,1):
+  see previous definition of 'STATUS_HEAP_CORRUPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(8976,1): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2604,1):
+  see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(9103,1): warning C4005: 'STATUS_INVALID_CRUNTIME_PARAMETER': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2605,1):
+  see previous definition of 'STATUS_INVALID_CRUNTIME_PARAMETER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(9166,1): warning C4005: 'STATUS_ASSERTION_FAILURE': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2606,1):
+  see previous definition of 'STATUS_ASSERTION_FAILURE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10075,1): warning C4005: 'STATUS_ENCLAVE_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2607,1):
+  see previous definition of 'STATUS_ENCLAVE_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10808,1): warning C4005: 'STATUS_INTERRUPTED': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2608,1):
+  see previous definition of 'STATUS_INTERRUPTED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10817,1): warning C4005: 'STATUS_THREAD_NOT_RUNNING': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2609,1):
+  see previous definition of 'STATUS_THREAD_NOT_RUNNING'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(11129,1): warning C4005: 'STATUS_ALREADY_REGISTERED': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2610,1):
+  see previous definition of 'STATUS_ALREADY_REGISTERED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(15048,1): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2612,1):
+  see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(15057,1): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION': macro redefinition
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2613,1):
+  see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\util\util.hpp(45,34): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\util\util.hpp(206,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\util\util.hpp(217,23): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\loadup.hpp(127,18): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\physmeme\physmeme.hpp(59,39): warning C4838: conversion from 'size_t' to 'unsigned long' requires a narrowing conversion
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\physmeme\physmeme.hpp(59,39): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/stellar/driver/kernel_ctx/kernel_ctx.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\kernel_ctx\kernel_ctx.cpp(10,12): warning C4311: 'reinterpret_cast': pointer truncation from 'void *' to 'uint32_t'
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\kernel_ctx\kernel_ctx.cpp(10,12): warning C4302: 'reinterpret_cast': truncation from 'void *' to 'uint32_t'
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\kernel_ctx\kernel_ctx.cpp(335,4): warning C4312: 'type cast': conversion from 'unsigned int' to 'HANDLE' of greater size
+  stellar.cpp
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\driver.hpp(45,38): warning C4129: 'I': unrecognized character escape sequence
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(11,2): warning C4091: 'static ': ignored on left of 'Vector4' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(68,2): warning C4091: 'static ': ignored on left of 'Vector3' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(17,16): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(80,2): warning C4091: 'static ': ignored on left of 'Vector2' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(84,2): warning C4091: 'static ': ignored on left of 'Matrix4' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(88,2): warning C4091: 'static ': ignored on left of 'Matrix3' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(91,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(95,13): warning C4244: 'return': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\math.hpp(140,8): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(66,1): warning C4005: 'STATUS_WAIT_0': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2549,1):
+  see previous definition of 'STATUS_WAIT_0'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(223,1): warning C4005: 'STATUS_ABANDONED_WAIT_0': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2550,1):
+  see previous definition of 'STATUS_ABANDONED_WAIT_0'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(246,1): warning C4005: 'STATUS_USER_APC': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2551,1):
+  see previous definition of 'STATUS_USER_APC'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(282,1): warning C4005: 'STATUS_TIMEOUT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2552,1):
+  see previous definition of 'STATUS_TIMEOUT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(291,1): warning C4005: 'STATUS_PENDING': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2553,1):
+  see previous definition of 'STATUS_PENDING'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(747,1): warning C4005: 'DBG_EXCEPTION_HANDLED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2554,1):
+  see previous definition of 'DBG_EXCEPTION_HANDLED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(756,1): warning C4005: 'DBG_CONTINUE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2555,1):
+  see previous definition of 'DBG_CONTINUE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(831,1): warning C4005: 'STATUS_SEGMENT_NOTIFICATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2556,1):
+  see previous definition of 'STATUS_SEGMENT_NOTIFICATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(994,1): warning C4005: 'STATUS_FATAL_APP_EXIT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2557,1):
+  see previous definition of 'STATUS_FATAL_APP_EXIT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1332,1): warning C4005: 'DBG_REPLY_LATER': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2558,1):
+  see previous definition of 'DBG_REPLY_LATER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1350,1): warning C4005: 'DBG_TERMINATE_THREAD': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2559,1):
+  see previous definition of 'DBG_TERMINATE_THREAD'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1359,1): warning C4005: 'DBG_TERMINATE_PROCESS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2560,1):
+  see previous definition of 'DBG_TERMINATE_PROCESS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1368,1): warning C4005: 'DBG_CONTROL_C': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2561,1):
+  see previous definition of 'DBG_CONTROL_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1377,1): warning C4005: 'DBG_PRINTEXCEPTION_C': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2562,1):
+  see previous definition of 'DBG_PRINTEXCEPTION_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1386,1): warning C4005: 'DBG_RIPEXCEPTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2563,1):
+  see previous definition of 'DBG_RIPEXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1395,1): warning C4005: 'DBG_CONTROL_BREAK': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2564,1):
+  see previous definition of 'DBG_CONTROL_BREAK'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1404,1): warning C4005: 'DBG_COMMAND_EXCEPTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2565,1):
+  see previous definition of 'DBG_COMMAND_EXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1413,1): warning C4005: 'DBG_PRINTEXCEPTION_WIDE_C': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2566,1):
+  see previous definition of 'DBG_PRINTEXCEPTION_WIDE_C'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1445,1): warning C4005: 'STATUS_GUARD_PAGE_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2567,1):
+  see previous definition of 'STATUS_GUARD_PAGE_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1456,1): warning C4005: 'STATUS_DATATYPE_MISALIGNMENT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2568,1):
+  see previous definition of 'STATUS_DATATYPE_MISALIGNMENT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1467,1): warning C4005: 'STATUS_BREAKPOINT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2569,1):
+  see previous definition of 'STATUS_BREAKPOINT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1478,1): warning C4005: 'STATUS_SINGLE_STEP': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2570,1):
+  see previous definition of 'STATUS_SINGLE_STEP'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1781,1): warning C4005: 'STATUS_LONGJUMP': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2571,1):
+  see previous definition of 'STATUS_LONGJUMP'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1808,1): warning C4005: 'STATUS_UNWIND_CONSOLIDATE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2572,1):
+  see previous definition of 'STATUS_UNWIND_CONSOLIDATE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(1923,1): warning C4005: 'DBG_EXCEPTION_NOT_HANDLED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2573,1):
+  see previous definition of 'DBG_EXCEPTION_NOT_HANDLED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2090,1): warning C4005: 'STATUS_ACCESS_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2574,1):
+  see previous definition of 'STATUS_ACCESS_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2099,1): warning C4005: 'STATUS_IN_PAGE_ERROR': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2575,1):
+  see previous definition of 'STATUS_IN_PAGE_ERROR'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2117,1): warning C4005: 'STATUS_INVALID_HANDLE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2576,1):
+  see previous definition of 'STATUS_INVALID_HANDLE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2162,1): warning C4005: 'STATUS_INVALID_PARAMETER': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2577,1):
+  see previous definition of 'STATUS_INVALID_PARAMETER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2262,1): warning C4005: 'STATUS_NO_MEMORY': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2578,1):
+  see previous definition of 'STATUS_NO_MEMORY'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2319,1): warning C4005: 'STATUS_ILLEGAL_INSTRUCTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2579,1):
+  see previous definition of 'STATUS_ILLEGAL_INSTRUCTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2400,1): warning C4005: 'STATUS_NONCONTINUABLE_EXCEPTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2580,1):
+  see previous definition of 'STATUS_NONCONTINUABLE_EXCEPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(2409,1): warning C4005: 'STATUS_INVALID_DISPOSITION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2581,1):
+  see previous definition of 'STATUS_INVALID_DISPOSITION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3342,1): warning C4005: 'STATUS_ARRAY_BOUNDS_EXCEEDED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2582,1):
+  see previous definition of 'STATUS_ARRAY_BOUNDS_EXCEEDED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3352,1): warning C4005: 'STATUS_FLOAT_DENORMAL_OPERAND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2583,1):
+  see previous definition of 'STATUS_FLOAT_DENORMAL_OPERAND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3362,1): warning C4005: 'STATUS_FLOAT_DIVIDE_BY_ZERO': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2584,1):
+  see previous definition of 'STATUS_FLOAT_DIVIDE_BY_ZERO'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3372,1): warning C4005: 'STATUS_FLOAT_INEXACT_RESULT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2585,1):
+  see previous definition of 'STATUS_FLOAT_INEXACT_RESULT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3382,1): warning C4005: 'STATUS_FLOAT_INVALID_OPERATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2586,1):
+  see previous definition of 'STATUS_FLOAT_INVALID_OPERATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3392,1): warning C4005: 'STATUS_FLOAT_OVERFLOW': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2587,1):
+  see previous definition of 'STATUS_FLOAT_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3402,1): warning C4005: 'STATUS_FLOAT_STACK_CHECK': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2588,1):
+  see previous definition of 'STATUS_FLOAT_STACK_CHECK'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3412,1): warning C4005: 'STATUS_FLOAT_UNDERFLOW': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2589,1):
+  see previous definition of 'STATUS_FLOAT_UNDERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3422,1): warning C4005: 'STATUS_INTEGER_DIVIDE_BY_ZERO': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2590,1):
+  see previous definition of 'STATUS_INTEGER_DIVIDE_BY_ZERO'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3432,1): warning C4005: 'STATUS_INTEGER_OVERFLOW': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2591,1):
+  see previous definition of 'STATUS_INTEGER_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(3442,1): warning C4005: 'STATUS_PRIVILEGED_INSTRUCTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2592,1):
+  see previous definition of 'STATUS_PRIVILEGED_INSTRUCTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4388,1): warning C4005: 'STATUS_STACK_OVERFLOW': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2593,1):
+  see previous definition of 'STATUS_STACK_OVERFLOW'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4905,1): warning C4005: 'STATUS_DLL_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2594,1):
+  see previous definition of 'STATUS_DLL_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4934,1): warning C4005: 'STATUS_ORDINAL_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2595,1):
+  see previous definition of 'STATUS_ORDINAL_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4944,1): warning C4005: 'STATUS_ENTRYPOINT_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2596,1):
+  see previous definition of 'STATUS_ENTRYPOINT_NOT_FOUND'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(4954,1): warning C4005: 'STATUS_CONTROL_C_EXIT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2597,1):
+  see previous definition of 'STATUS_CONTROL_C_EXIT'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(5032,1): warning C4005: 'STATUS_DLL_INIT_FAILED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2598,1):
+  see previous definition of 'STATUS_DLL_INIT_FAILED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(6029,1): warning C4005: 'STATUS_CONTROL_STACK_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2599,1):
+  see previous definition of 'STATUS_CONTROL_STACK_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7623,1): warning C4005: 'STATUS_FLOAT_MULTIPLE_FAULTS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2600,1):
+  see previous definition of 'STATUS_FLOAT_MULTIPLE_FAULTS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7633,1): warning C4005: 'STATUS_FLOAT_MULTIPLE_TRAPS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2601,1):
+  see previous definition of 'STATUS_FLOAT_MULTIPLE_TRAPS'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(7765,1): warning C4005: 'STATUS_REG_NAT_CONSUMPTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2602,1):
+  see previous definition of 'STATUS_REG_NAT_CONSUMPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(8748,1): warning C4005: 'STATUS_HEAP_CORRUPTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2603,1):
+  see previous definition of 'STATUS_HEAP_CORRUPTION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(8976,1): warning C4005: 'STATUS_STACK_BUFFER_OVERRUN': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2604,1):
+  see previous definition of 'STATUS_STACK_BUFFER_OVERRUN'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(9103,1): warning C4005: 'STATUS_INVALID_CRUNTIME_PARAMETER': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2605,1):
+  see previous definition of 'STATUS_INVALID_CRUNTIME_PARAMETER'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(9166,1): warning C4005: 'STATUS_ASSERTION_FAILURE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2606,1):
+  see previous definition of 'STATUS_ASSERTION_FAILURE'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10075,1): warning C4005: 'STATUS_ENCLAVE_VIOLATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2607,1):
+  see previous definition of 'STATUS_ENCLAVE_VIOLATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10808,1): warning C4005: 'STATUS_INTERRUPTED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2608,1):
+  see previous definition of 'STATUS_INTERRUPTED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(10817,1): warning C4005: 'STATUS_THREAD_NOT_RUNNING': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2609,1):
+  see previous definition of 'STATUS_THREAD_NOT_RUNNING'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(11129,1): warning C4005: 'STATUS_ALREADY_REGISTERED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2610,1):
+  see previous definition of 'STATUS_ALREADY_REGISTERED'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(15048,1): warning C4005: 'STATUS_SXS_EARLY_DEACTIVATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2612,1):
+  see previous definition of 'STATUS_SXS_EARLY_DEACTIVATION'
+  
+C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\ntstatus.h(15057,1): warning C4005: 'STATUS_SXS_INVALID_DEACTIVATION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\um\winnt.h(2613,1):
+  see previous definition of 'STATUS_SXS_INVALID_DEACTIVATION'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\util\util.hpp(45,34): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\util\util.hpp(206,25): warning C4018: '<': signed/unsigned mismatch
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\util\util.hpp(217,23): warning C4312: 'type cast': conversion from 'DWORD' to 'void *' of greater size
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\loadup.hpp(127,18): warning C4267: 'argument': conversion from 'size_t' to 'DWORD', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\physmeme\physmeme.hpp(59,39): warning C4838: conversion from 'size_t' to 'unsigned long' requires a narrowing conversion
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\driver\physmeme\physmeme.hpp(59,39): warning C4267: 'initializing': conversion from 'size_t' to 'unsigned long', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\wrappers\keybind.hpp(188,6): warning C4091: 'static ': ignored on left of 'CKeybind::c_keybind_type' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(25,2): warning C4091: 'static ': ignored on left of 'wts_ret' when no variable is declared
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(65,25): warning C4305: 'initializing': truncation from 'double' to 'float'
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\helpers\world.hpp(68,31): warning C4244: '=': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'src/stellar/stellar.cpp')
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(12,1): warning C4005: 'DXGI_STATUS_OCCLUDED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58160,1):
+  see previous definition of 'DXGI_STATUS_OCCLUDED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(13,1): warning C4005: 'DXGI_STATUS_CLIPPED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58169,1):
+  see previous definition of 'DXGI_STATUS_CLIPPED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(14,1): warning C4005: 'DXGI_STATUS_NO_REDIRECTION': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58178,1):
+  see previous definition of 'DXGI_STATUS_NO_REDIRECTION'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(15,1): warning C4005: 'DXGI_STATUS_NO_DESKTOP_ACCESS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58187,1):
+  see previous definition of 'DXGI_STATUS_NO_DESKTOP_ACCESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(16,1): warning C4005: 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58196,1):
+  see previous definition of 'DXGI_STATUS_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(17,1): warning C4005: 'DXGI_STATUS_MODE_CHANGED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58205,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(18,1): warning C4005: 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58214,1):
+  see previous definition of 'DXGI_STATUS_MODE_CHANGE_IN_PROGRESS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(21,1): warning C4005: 'DXGI_ERROR_INVALID_CALL': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58229,1):
+  see previous definition of 'DXGI_ERROR_INVALID_CALL'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(22,1): warning C4005: 'DXGI_ERROR_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58238,1):
+  see previous definition of 'DXGI_ERROR_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(23,1): warning C4005: 'DXGI_ERROR_MORE_DATA': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58247,1):
+  see previous definition of 'DXGI_ERROR_MORE_DATA'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(24,1): warning C4005: 'DXGI_ERROR_UNSUPPORTED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58256,1):
+  see previous definition of 'DXGI_ERROR_UNSUPPORTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(25,1): warning C4005: 'DXGI_ERROR_DEVICE_REMOVED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58265,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_REMOVED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(26,1): warning C4005: 'DXGI_ERROR_DEVICE_HUNG': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58274,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_HUNG'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(27,1): warning C4005: 'DXGI_ERROR_DEVICE_RESET': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58284,1):
+  see previous definition of 'DXGI_ERROR_DEVICE_RESET'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(28,1): warning C4005: 'DXGI_ERROR_WAS_STILL_DRAWING': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58293,1):
+  see previous definition of 'DXGI_ERROR_WAS_STILL_DRAWING'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(29,1): warning C4005: 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58303,1):
+  see previous definition of 'DXGI_ERROR_FRAME_STATISTICS_DISJOINT'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(30,1): warning C4005: 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58312,1):
+  see previous definition of 'DXGI_ERROR_GRAPHICS_VIDPN_SOURCE_IN_USE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(31,1): warning C4005: 'DXGI_ERROR_DRIVER_INTERNAL_ERROR': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58322,1):
+  see previous definition of 'DXGI_ERROR_DRIVER_INTERNAL_ERROR'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(32,1): warning C4005: 'DXGI_ERROR_NONEXCLUSIVE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58331,1):
+  see previous definition of 'DXGI_ERROR_NONEXCLUSIVE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(33,1): warning C4005: 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58340,1):
+  see previous definition of 'DXGI_ERROR_NOT_CURRENTLY_AVAILABLE'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(34,1): warning C4005: 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58350,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_CLIENT_DISCONNECTED'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\dxgitype.h(35,1): warning C4005: 'DXGI_ERROR_REMOTE_OUTOFMEMORY': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58359,1):
+  see previous definition of 'DXGI_ERROR_REMOTE_OUTOFMEMORY'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(917,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58665,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(918,1): warning C4005: 'D3D11_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58674,1):
+  see previous definition of 'D3D11_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(919,1): warning C4005: 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58684,1):
+  see previous definition of 'D3D11_ERROR_TOO_MANY_UNIQUE_VIEW_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d11.h(920,1): warning C4005: 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58693,1):
+  see previous definition of 'D3D11_ERROR_DEFERRED_CONTEXT_MAP_WITHOUT_INITIAL_DISCARD'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(608,1): warning C4005: 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58641,1):
+  see previous definition of 'D3D10_ERROR_TOO_MANY_UNIQUE_STATE_OBJECTS'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\libraries\SDK\Include\d3d10.h(609,1): warning C4005: 'D3D10_ERROR_FILE_NOT_FOUND': macro redefinition
+  (compiling source file 'src/stellar/stellar.cpp')
+  C:\Program Files (x86)\Windows Kits\10\Include\10.0.22621.0\shared\winerror.h(58650,1):
+  see previous definition of 'D3D10_ERROR_FILE_NOT_FOUND'
+  
+C:\Users\Khaled\Desktop\test\stellar\src\stellar\stellar.cpp(70,20): error C2039: 'contains': is not a member of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.39.33519\include\xstring(2337,7):
+  see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+  
+  Generating Code...
